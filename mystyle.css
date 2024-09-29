@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Card in vertical center*/
+
+    background-color:  hsl(0, 0%, 8%);
+    color: white;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card{
+    text-align: center;
+    padding: 1% 1%;
+
+    background-color: hsl(0, 0%, 12%);
+    width: 25%;
+
+    border-radius: 8px;
+}
+
+.card img{
+    width: 35%;
+    border-radius: 50%;
+}
+
+h2{
+    margin-bottom: 1%;
+    font-weight: 700;
+}
+
+.about{
+    font-weight: 400;
+}
+
+p{
+    margin: 1% 0;
+}
+
+.loc{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 5%;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 3%;
+    padding: 2%;
+    text-align: center;
+
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+
+    font-weight: 600;
+}
+
+ul :hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
