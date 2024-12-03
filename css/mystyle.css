@@ -44,7 +44,7 @@ h2{
     padding-bottom: 5%;
     padding-top: 5%;
     
-    font-weight: 200;
+    font-weight: 400;
 }
 
 p{
@@ -96,7 +96,6 @@ a{
         width: 70%;
     }
 }
-
 
 @media (min-width: 750px){
     .card{
