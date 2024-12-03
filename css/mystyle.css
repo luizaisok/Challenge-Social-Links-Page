@@ -14,12 +14,17 @@ body{
     font-style: normal;
 }
 
+img{
+    padding-top: 5%;
+}
+
 .card{
     text-align: center;
     padding: 1% 1%;
+    margin: 2% 0;
 
     background-color: hsl(0, 0%, 12%);
-    width: 500px;
+    width: 25%;
 
     border-radius: 8px;
 }
@@ -37,6 +42,9 @@ h2{
 .about{
     font-weight: 400;
     padding-bottom: 5%;
+    padding-top: 5%;
+    
+    font-weight: 200;
 }
 
 p{
@@ -75,4 +83,23 @@ ul :hover{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+@media (min-width: 375px){
+    .card{
+        width: 90%;
+    }
+}
+
+@media (min-width: 500px){
+    .card{
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 750px){
+    .card{
+        width: 50%;
+    }
 }
