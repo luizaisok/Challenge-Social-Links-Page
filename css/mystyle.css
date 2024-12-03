@@ -103,3 +103,9 @@ a{
         width: 50%;
     }
 }
+
+@media (min-width: 1000px){
+    .card{
+        width: 35%;
+    }
+}
